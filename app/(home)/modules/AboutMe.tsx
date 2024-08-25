@@ -8,9 +8,9 @@ import SocialMediaLinks from "../components/SocialMediaLinks";
 const AboutMe = () => {
   return (
     <Section>
-      <Container className="bg-neutral-950 text-white max-w-6xl">
+      <Container className="bg-neutral-950 text-white">
         <h2 className="py-8 text-green-500 text-center">About Me</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center max-w-6xl">
           <div className="relative">
             <div className="absolute top-4 left-4 z-0 hidden md:block w-full h-full rounded-lg bg-green-500"></div>
             <Image
@@ -23,7 +23,7 @@ const AboutMe = () => {
             />
           </div>
 
-          <div>
+          <div className="pb-24">
             <h4 className="mb-4">Get some insights into my life</h4>
                 <p>
                 <b>Programming is a big part of my life for past 4+ years.</b> I
