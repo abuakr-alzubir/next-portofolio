@@ -12,13 +12,14 @@ const AboutMe = () => {
         <h2 className="py-8 text-green-500 text-center">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center max-w-6xl">
           <div className="relative">
-            <div className="absolute top-4 left-4 z-0 hidden md:block w-full h-full rounded-lg bg-green-500"></div>
+            <div className="absolute top-4 left-4 z-0 hidden lg:block w-full h-full rounded-lg bg-green-500"></div>
             <Image
               src="/about.jpg"
               alt="about Me"
               width={0}
               height={0}
               layout="responsive"
+              priority
               className="border-8 border-white rounded-lg relative z-10"
             />
           </div>
