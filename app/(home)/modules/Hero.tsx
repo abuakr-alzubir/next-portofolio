@@ -1,11 +1,14 @@
 import React from 'react'
+
 import Image from 'next/image'
 import SocialMediaLinks from '../components/SocialMediaLinks'
+import Section from '../components/Section'
+import Container from '../components/Container'
 
 const Hero = () => {
   return (
-    <section className='py-8 md:py-16'>
-        <div className='container px-4 mx-auto'>
+    <Section>
+        <Container>
             <div className='grid grid-cols-1 md:grid-cols-[1fr_24rem] gap-12 md:gap-4 items-center'>
                 <div className='order-2 md:order-1'>
                     <h1 className='mb-4 text-green-500'>Hi, I am Abubakr </h1>
@@ -41,8 +44,8 @@ const Hero = () => {
                     <Image src="/hero.jpg" alt="hero" sizes='100vw' width={0} height={0} priority className='w-full h-auto rounded-lg' />
                 </div>
             </div>
-        </div>
-    </section>
+        </Container>
+    </Section>
   )
 }
 
