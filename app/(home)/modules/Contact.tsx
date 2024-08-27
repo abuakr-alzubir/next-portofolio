@@ -10,27 +10,11 @@ export const Contact = () => {
         <Container className='max-w-lg text-center'>
             <h2 className='text-green-500 mb-8'>Contact</h2>
 
-            <div className='flex flex-col gap-4 items-center'>
-                <div className='flex items-center gap-4'>
-                    <SocialMediaLinks src='mail' hasBackground/>
-                    <a className='text-xs md:text-lg' href="mailto:bakryelzzubair@gmail.com">
-                        <h4>bakryelzzubair@gmail.com</h4>
-                    </a>
-                </div>
+            <div className='flex gap-4 items-center justify-center'>
+                    <SocialMediaLinks src='mail' href="mailto:bakryelzzubair@gmail.com" hasBackground/>
+                    <SocialMediaLinks src='telephone' href="tel:+97433787781" hasBackground/>
+                    <SocialMediaLinks src='whatsap' href="https://wa.me/97471903793" hasBackground/>
 
-                <div className='flex items-center gap-4'>
-                    <SocialMediaLinks src='telephone' hasBackground/>
-                    <a href="tel:+97433787781">
-                        <h4>+97433787781</h4>
-                    </a>
-                </div>
-
-                <div className='flex items-center gap-4'>
-                    <SocialMediaLinks src='whatsapp' hasBackground/>
-                    <a href="https://wa.me/97471903793">
-                        <h4>+97471903793</h4>
-                    </a>
-                </div>
             </div>
 
         </Container>
