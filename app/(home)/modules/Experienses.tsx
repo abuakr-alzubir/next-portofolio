@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Section from "../components/Section";
 import Container from "../components/Container";
-import exp from "constants";
 
 export const Experienses = () => {
   return (
