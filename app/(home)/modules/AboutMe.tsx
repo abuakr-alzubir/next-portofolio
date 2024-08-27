@@ -18,9 +18,9 @@ const AboutMe = () => {
               alt="about Me"
               width={0}
               height={0}
-              layout="responsive"
+              sizes="100vw"
               priority
-              className="border-8 border-white rounded-lg relative z-10"
+              className="w-full h-auto border-8 border-white rounded-lg relative z-10"
             />
           </div>
 

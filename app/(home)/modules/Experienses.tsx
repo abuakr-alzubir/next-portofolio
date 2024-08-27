@@ -19,8 +19,8 @@ export const Experienses = () => {
                 alt="experienses"
                 width={0}
                 height={0}
-                layout="responsive"
-                className="w-full max-h-32"
+                sizes="100vw"
+                className="w-full h-auto max-h-32"
                 />
             </div>
 
