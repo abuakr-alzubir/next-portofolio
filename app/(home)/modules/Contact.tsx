@@ -13,7 +13,7 @@ export const Contact = () => {
             <div className='flex flex-col gap-4 items-center'>
                 <div className='flex items-center gap-4'>
                     <SocialMediaLinks src='mail' hasBackground/>
-                    <a href="mailto:bakryelzzubair@gmail.com">
+                    <a className='text-sm' href="mailto:bakryelzzubair@gmail.com">
                         <h4>bakryelzzubair@gmail.com</h4>
                     </a>
                 </div>
