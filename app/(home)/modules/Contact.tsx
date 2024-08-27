@@ -24,6 +24,13 @@ export const Contact = () => {
                         <h4>+97433787781</h4>
                     </a>
                 </div>
+
+                <div className='flex items-center gap-4'>
+                    <SocialMediaLinks src='whatsapp' hasBackground/>
+                    <a href="https://wa.me/97471903793">
+                        <h4>+97471903793</h4>
+                    </a>
+                </div>
             </div>
 
         </Container>
